@@ -1,6 +1,3 @@
-.best__book {
-}
-
 .best__info {
   width: 100%;
   display: flex;
@@ -17,8 +14,12 @@
   align-items: center;
 }
 
-.best__day {
+.section-title {
   font-size: xx-large;
+}
+
+.sub_cover {
+  display: flex;
 }
 
 img {
