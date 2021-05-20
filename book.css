@@ -1,9 +1,0 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
-@import "reset.css";
-
-@import "components/topbar.css";
-@import "style.css";
-
-body {
-  font-family: "Poppins", sans-serif;
-}

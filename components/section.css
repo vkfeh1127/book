@@ -1,0 +1,45 @@
+.best__book {
+}
+
+.best__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.best__book__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best__day {
+  font-size: xx-large;
+}
+
+img {
+  border: none;
+  border-radius: 10%;
+}
+.point {
+  color: yellow;
+}
+
+.best__book img {
+  width: 30%;
+  height: 100%;
+}
+
+.sub_cover .book__cover {
+  width: 65px;
+  height: auto;
+}
+
+.pop img {
+  width: 80px;
+  height: 100%;
+}
