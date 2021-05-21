@@ -1,46 +1,120 @@
-.best__info {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+main h1 {
+  font-size: 30px;
+  margin: 20px;
 }
-
-.best__book__data {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-title {
-  font-size: xx-large;
-}
-
-.sub_cover {
-  display: flex;
-}
-
 img {
-  border: none;
-  border-radius: 10%;
+  border-radius: 15%;
 }
-.point {
-  color: yellow;
-}
-
-.best__book img {
-  width: 30%;
-  height: 100%;
-}
-
-.sub_cover .book__cover {
-  width: 65px;
+.best img {
+  width: 200px;
   height: auto;
 }
 
-.pop img {
-  width: 80px;
-  height: 100%;
+.top-books img {
+  width: 200px;
+  height: 300px;
+}
+
+.best {
+  display: flex;
+  margin: 0 auto;
+}
+
+.best_data {
+  flex-direction: column;
+  margin: 0 10px;
+  width: 100;
+  line-height: 1.5;
+}
+
+.best_data h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.best_data h3 {
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+.best_point {
+  color: yellow;
+  margin: 30px 0;
+}
+.best_point i:last-child {
+  color: rgb(199, 193, 193);
+}
+
+.thema {
+  display: flex;
+  justify-content: space-evenly;
+}
+.thema span {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(155, 155, 150);
+  border-radius: 10%;
+}
+.best-action button {
+  border: 0;
+}
+.fav {
+  background-color: white;
+}
+.buynow {
+  font-weight: 600;
+  font-size: 20px;
+  width: 120px;
+  height: 60px;
+}
+
+.best-action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.best-action i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  color: black;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.top-books {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 15px;
+}
+.top-books__book {
+  margin-right: 20px;
+}
+
+.top-books__rating {
+  margin-top: 10px;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+.pop-authors {
+  display: flex;
+}
+
+.pop-authors__photo {
+  margin-right: 20px;
+}
+.pop-authors__data {
+  width: 50%;
+}
+.pop-authors__data h2 {
+  font-size: 50px;
+}
+.pop-authors__data p {
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: 300;
+  opacity: 0.5;
 }

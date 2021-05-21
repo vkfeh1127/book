@@ -1,85 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link href="style.css" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book</title>
+     <link href="style.css" rel="stylesheet">
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible">
+     <meta name="viewport" content="width=device-width">
+     <title>교보문고</title>
 </head>
+
 <body>
-  <div class=top__bar>
-    <span class="top__title"><i class="top__bar-icon fas fa-stream fa-lg"></i></span>
-    <span class="top__title">library</span>
-    <span class="top__title"><i class="top_bar-icon fas fa-shopping-bag fa-lg"></i></span>
-  </div>
-  <form class="search-bar">
-    <input class="search-book" type="text" placeholder="Search books...."/>
-    <i class="circle fas fa-search"></i>
-  </form>
-    <header class="best__title">
-      <h1 class="section-title">Book of the day</h1>
-    </header>
-    <section class="best__info">
-      <div class="best__book">
-        <img class="book__cover" src="img/1.jpg"/>
-      </div>
-      <div class="best__book__data">
-        <h2 class="best__book__title">Harry Porter and The Sorcerer's Stone</h2>
-        <h4 class="best__book__writer">J.K.Rowling</h4>
-        <div class="point">
-        <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i>
-      </div>
-      <div class="thema">
-        <div class="book__thema">Journey</div>
-        <div class="book__thema">Fantagy</div>
-      </div>
-      <div class="choice">
-        <button><i class="fas fa-bookmark"></i></button>
-        <button>Book Now</button>
-      </div>
-    </div>
-    </section>
-    <section class="top-adventures">
-      <h1 class="section-title">Top Adventures
-      </h1>
-      <div class="sub_cover">
-        <img class="book__cover" src="img/2.jpg"/>
-        <div class="point">
-        <i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="far fa-star fa-xs"></i>
-      </div>
-
-    </div>
-    <div class="sub_cover">
-      <img class="book__cover" src="img/3.jpg"/>
-      <div class="point">
-        <i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="far fa-star fa-xs"></i>
-      </div>
-    </div>
-    
-    <div class="sub_cover">
-      <img class="book__cover" src="img/4.jpg"/>
-      <div class="point">
-        <i class="star fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="far fa-star fa-xs"></i>
-      </div>
-
-      </div>
-    <div class="sub_cover">
-      <img class="book__cover" src="img/5.jpg"/>
-      <div class="point">
-      <i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="fas fa-star fa-xs"></i><i class="far fa-star fa-xs"></i>
-      </div>
-    </div>
-  </section>
-  <section class="popular__">
-    <div class="pop__writer__profile">
-      <img src="img/jk.jpg "
-    </div>
-    <span class="pop__writer__info">
-      <h1>J.K.Rowling</h1>
-      <p>Joanne Rowling CH, OBE, HonFRSE, FRCPE, FRSL (roʊlɪŋ/ ROH-ling; born 31 July 1965), better known by her pen name J. K. Rowling, is a British author, philanthropist, film producer, television producer, and screenwriter. She is best known for writing the Harry Potter fantasy series, which has won multiple awards and sold more than 500 million copies, becoming the best-selling book series in history.</p>
-    </span>
-  </section>
-    <script src="https://kit.fontawesome.com/95ec581063.js" crossorigin="anonymous"></script>
+     <div class="top-bar">
+          <i class="fas fa-stream fa-lg"></i>
+          <span>library</span>
+          <i class="fas fa-shopping-bag fa-lg"></i>
+     </div>
+     <form class="search">
+          <input type="text" placeholder="Search books...." />
+          <submit><i class="fas fa-search fa-2x"></i></submit>
+     </form>
+     <main>
+          <h1>Book of the Day</h1>
+          <section class="best">
+               <div class="best_cover">
+                    <img src="img/1.jpg">
+               </div>
+               <div class="best_data">
+                    <h2>Harry Porter and The Sorcerer's Stone</h2>
+                    <h3>J.K.Rowling</h3>
+                    <div class="best_point">
+                         <i class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i><i
+                              class="fas fa-star fa-2x"></i><i class="fas fa-star fa-2x"></i><i
+                              class="fas fa-star fa-2x"></i>
+                    </div>
+                    <div class="thema">
+                         <span>Journey</span>
+                         <span>Fantagy</span>
+                    </div>
+                    <div class="best-action">
+                         <button class="fav" type="button"><i class="fas fa-bookmark fa-2x" type="submit"></i></button>
+                         <button class="buynow" type="button">Book Now</button>
+                    </div>
+               </div>
+          </section>
+          <h1>Top Adventures</h1>
+          <section class="top-books">
+               <div class="top-books__book">
+                    <img src="img/2.jpg" />
+                    <div class="top-books__rating">
+                         <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i>
+                    </div>
+               </div>
+               <div class="top-books__book">
+                    <img src="img/3.jpg" />
+                    <div class="top-books__rating">
+                         <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i>
+                    </div>
+               </div>
+               <div class="top-books__book">
+                    <img src="img/4.jpg" />
+                    <div class="top-books__rating">
+                         <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i>
+                    </div>
+               </div>
+               <div class="top-books__book">
+                    <img src="img/5.jpg" />
+                    <div class="top-books__rating">
+                         <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i>
+                    </div>
+               </div>
+               <div class="top-books__book">
+                    <img src="img/4.jpg" />
+                    <div class="top-books__rating">
+                         <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i>
+                    </div>
+               </div>
+               <div class="top-books__book">
+                    <img src="img/3.jpg" />
+                    <div class="top-books__rating">
+                         <i class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i><i class="fas fa-star fa-1x"></i><i
+                              class="fas fa-star fa-1x"></i>
+                    </div>
+               </div>
+          </section>
+          <h1>Popular authors</h1>
+          <section class="pop-authors">
+               <div class="pop-authors__photo">
+                    <img src="img/jk.jpg" />
+               </div>
+               <div class="pop-authors__data">
+                    <h2>J.K.ROWING</h2>
+                    <p>DFASDFASDFASD FASDFASDFASDFASD FASDFASD FASDFASDFASDFA SDFASDFASDFASDF ASSSSSSSSSSSS</p>
+               </div>
+          </section>
+     </main>
+     <script src="https://kit.fontawesome.com/95ec581063.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

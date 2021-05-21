@@ -4,9 +4,12 @@
 @import "components/topbar.css";
 @import "components/section.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  width: 800px;
-  height: 100vh;
-  margin: 0px 20px;
+  max-width: 700px;
+  margin: 0px auto;
 }
